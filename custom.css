@@ -88,3 +88,9 @@ figcaption {
 .w3-half img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
 }
+
+@media screen and (max-width: 993px) {
+    .top-header-mobile {
+        font-size: 48px !important;
+    }
+}
