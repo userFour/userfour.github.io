@@ -94,3 +94,12 @@ figcaption {
         font-size: 48px !important;
     }
 }
+
+.favicon-buffer-sidebar {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.favicon-buffer-top-menu {
+    margin-left: 1em;
+}
