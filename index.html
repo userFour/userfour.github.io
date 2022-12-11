@@ -99,13 +99,13 @@
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
-      <img src="images/cnc27_1.jpg" style="width:100%" onclick="onClick(this)" alt="Custom CNC">
-      <img src="images/cnc27_2.jpg" style="width:100%" onclick="onClick(this)" alt="Custom CNC again">
+      <img src="images/cnc27_1.jpg" style="width:100%" onclick="openModal(this)" alt="Custom CNC">
+      <img src="images/cnc27_2.jpg" style="width:100%" onclick="openModal(this)" alt="Custom CNC again">
     </div>
 
     <div class="w3-half">
-      <img src="images/hex_1.jpg" style="width:100%" onclick="onClick(this)" alt="Lasercut hex">
-      <img src="images/hex_2.jpg" style="width:100%" onclick="onClick(this)" alt="Hex but flipped">
+      <img src="images/hex_1.jpg" style="width:100%" onclick="openModal(this)" alt="Lasercut hex">
+      <img src="images/hex_2.jpg" style="width:100%" onclick="openModal(this)" alt="Hex but flipped">
     </div>
   </div>
   
@@ -140,13 +140,13 @@
     <!-- Photo grid (modal) -->
     <div class="w3-row-padding">
       <div class="w3-half">
-        <img src="images/about_me_lions.jpg" style="width:100%" onclick="onClick(this)" alt="Climbing the West Lion">
-        <img src="images/about_me_cnc.jpg" style="width:100%" onclick="onClick(this)" alt="CNC laser cutter">
+        <img src="images/about_me_lions.jpg" style="width:100%" onclick="openModal(this)" alt="Climbing the West Lion">
+        <img src="images/about_me_cnc.jpg" style="width:100%" onclick="openModal(this)" alt="CNC laser cutter">
       </div>
 
       <div class="w3-half">
-        <img src="images/about_me_helmet.jpg" style="width:100%" onclick="onClick(this)" alt="Mtn biking">
-        <img src="images/about_me_rope_swing.jpg" style="width:100%" onclick="onClick(this)" alt="Splash">
+        <img src="images/about_me_helmet.jpg" style="width:100%" onclick="openModal(this)" alt="Mtn biking">
+        <img src="images/about_me_rope_swing.jpg" style="width:100%" onclick="openModal(this)" alt="Splash">
       </div>
     </div>
 
@@ -200,7 +200,7 @@ function w3_close() {
 }
 
 // Modal Image Gallery
-function onClick(element) {
+function openModal(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
