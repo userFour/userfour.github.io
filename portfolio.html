@@ -100,7 +100,7 @@
       <h2>[2024]</h2>
     </div>
     <hr style="width:50px;border:5px solid #d32e22" class="w3-round">
-    <p>After using my cheap import SEIG mini-lathe for a couple of projects, the original motor driving electronics
+    <p>After using my cheap import SEIG mini-lathe for a couple of projects, the original motor driver circuit
       eventually failed.
       There was also a mechanical failure, as the plastic drive pulley sheared off from the motor output shaft. </p>
     <p>Many people online have upgraded their lathes by replacing the stock brushed motor with a large brushless motor, or
@@ -110,10 +110,10 @@
       I was never happy with this solution however, because these motor controllers cannot provide very good low-end
       torque.</p>
   
-    <p>Low-end torque is important for a lathe because it is often necessary to turn work pieces at very low speed and
-      with high torque, during parting or threading operations.
+    <p>Low-end torque is important for a lathe; it is often necessary to turn work pieces at very low speed and
+      with high torque during parting or threading operations.
       Without employing a large reduction ratio, VESCs and ESCs cannot offer this low-end torque because they control the
-      motor by sensing it's back EMF.
+      motor by sensing its back EMF.
       For these controllers to work, they require the motor be spinning fast enough to already generate measurable back
       EMF - at which point the lathe spindle is also spinning very quickly.
       A better solution is to use a powerful field-oriented control driver, like the ODrive S1.</p>
