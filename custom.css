@@ -103,3 +103,10 @@ figcaption {
 .favicon-buffer-top-menu {
     margin-left: 1em;
 }
+
+object {
+    width: 100%; /* Take full width on mobile */
+    max-width: 66%; /* Limit the size on larger screens */
+    height: 1024px; /* Adjust height as needed */
+  }
+  
